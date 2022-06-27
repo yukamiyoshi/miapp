@@ -1,1 +1,18 @@
-<h1>観光アプリ<h1>
+<h1>観光アプリ</h1>
+<script type="module">
+import { bg, show } from "https://js.sabae.cc/egadv.js";
+await bg(3877);
+let a = await show("ここはどこ?",["ハワイ","タヒチ","沖縄"]);
+if (a == "沖縄") {
+    await show("正解！さすが！")
+} else {
+
+    await show("違うよ！沖縄でした")
+}
+await show("沖縄に行こう！")
+await bg(2086)
+await show("北海道も行きたい！")
+await bg(1074)
+await show("小樽")
+</script>
+    
